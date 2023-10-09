@@ -1,6 +1,6 @@
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')(); // prompt-sync module to create the prompting functions.
 
-function calculateGrade(mark) {
+function calculateGrade(mark) { // if..elseif..statement that returns grade upon checking where the marks fall.
     if (mark > 79) {
         return "A";
     } else if (mark >= 60) {
@@ -14,7 +14,7 @@ function calculateGrade(mark) {
     }
 }
 
-function getStudentGrade() {
+function getStudentGrade() { // if..else..function to award the student grade by keying-in marks from 0-100.
     const mark = parseFloat(prompt("Enter student's mark (between 0 and 100): "));
     if (!isNaN(mark) && mark >= 0 && mark <= 100) {
         const grade = calculateGrade(mark);
@@ -24,5 +24,5 @@ function getStudentGrade() {
     }
 }
 
-// Call the function to test
+// Calls the function to test
 getStudentGrade();

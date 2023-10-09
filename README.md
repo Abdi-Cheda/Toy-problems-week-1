@@ -13,8 +13,8 @@
 
 ### Challenge 2: Speed Detector (Toy Problem)
 
-#### <b> I have written a program that takes the speed of a car as input e.g 80. If the speed is less than or equal to 70, it prints out an “Ok” message. Otherwise, for every 5 km/s above the speed limit (70), it gives the driver one demerit point and prints out the total number of demerit points.
-#### In this case, if the speed is 80, it prints out: “Points: 2”. If the driver gets more than 12 points, the function prints out: “License suspended”. <b>
+#### I have written a program that takes the speed of a car as input e.g 80. If the speed is less than or equal to 70, it prints out an “Ok” message. Otherwise, for every 5 km/s above the speed limit (70), it gives the driver one demerit point and prints out the total number of demerit points.
+#### In this case, if the speed is 80, it prints out: “Points: 2”. If the driver gets more than 12 points, the function prints out: “License suspended”.
 
 
 ### Challenge 3: Net Salary Calculator (Toy Problem)
