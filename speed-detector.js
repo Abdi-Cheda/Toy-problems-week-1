@@ -4,7 +4,7 @@ const speedLimit = 70; // declaration of a constant speedLimit
 const demeritPointsPerKmOverLimit = 1; // declaration of a constant speedLimit 
 const demeritPointsThreshold = 12; // declaration of a constant demeritPointsThreshold 
 
-function calculateDemeritPoints(speed) { // function to the calculateDemeritPoints
+function calculateDemeritPoints(speed) { // if..else..function to the calculateDemeritPoints
     if (speed <= speedLimit) {
         console.log("Ok");
     } else {
