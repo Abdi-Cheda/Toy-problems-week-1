@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')(); // prompt-sync module to create the prompting functions.
+const prompt = require('prompt-sync')(); // prompt-sync function to create the prompting functions.
 
 function calculateGrade(mark) { // if..elseif..statement that returns grade upon checking where the marks fall.
     if (mark > 79) {
