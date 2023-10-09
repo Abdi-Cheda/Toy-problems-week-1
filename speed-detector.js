@@ -1,10 +1,10 @@
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')(); // prompt-sync module to create the prompting functions.
 
-const speedLimit = 70;
-const demeritPointsPerKmOverLimit = 1;
-const demeritPointsThreshold = 12;
+const speedLimit = 70; // declaration of a constant speedLimit 
+const demeritPointsPerKmOverLimit = 1; // declaration of a constant speedLimit 
+const demeritPointsThreshold = 12; // declaration of a constant demeritPointsThreshold 
 
-function calculateDemeritPoints(speed) {
+function calculateDemeritPoints(speed) { // function to the calculateDemeritPoints
     if (speed <= speedLimit) {
         console.log("Ok");
     } else {
@@ -17,10 +17,10 @@ function calculateDemeritPoints(speed) {
     }
 }
 
-// Get user input for car speed
+// a function to get user input for car speed
 const carSpeed = parseFloat(prompt("Enter the car speed: "));
 
-// Validate and calculate demerit points
+// function to validate and calculate demerit points
 if (!isNaN(carSpeed) && carSpeed >= 0) {
     calculateDemeritPoints(carSpeed);
 } else {
